@@ -1,0 +1,11 @@
+// select all fields in Permission Sets / Profiles
+
+ (function() {
+    var aa = document.querySelectorAll("input[type=checkbox]");
+    for (var i = 0; i < aa.length; i++){
+	if(i<12 || i%2==0){
+        	aa[i].checked = true;
+	}
+    }
+ })()
+ 
