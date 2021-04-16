@@ -1,4 +1,5 @@
 // select all fields for full access in Permission Sets / Profiles
+// (open Developer Console, select Console and Paste the following code)
 
  (function() {
     var aa = document.querySelectorAll("input[type=checkbox]");
